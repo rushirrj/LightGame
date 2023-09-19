@@ -37,6 +37,8 @@ const GreenLightRedLight = ({ data, setData }) => {
         if (timer === 0) {
             clearInterval(newInterval);
             setFlag(false);
+            setWon(false)
+            setLost(true)
             alert("time up!")
             setTimer(40)
         }
