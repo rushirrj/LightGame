@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 
 const GreenLightRedLight = ({ data, setData }) => {
-    const [style, setStyle] = useState({ backgroundColor: "black" });
+    const [style, setStyle] = useState({ backgroundColor: "green" });
     const getColor = useRef(null)
     const [count, setCount] = useState(0)
     const [timer, setTimer] = useState(40);
